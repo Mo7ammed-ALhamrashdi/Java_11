@@ -27,7 +27,7 @@ public class Service implements Sellable {
         if (price >= 0 && price <= 10000) {
             this.price = price;
         } else {
-            IO.println("Price out of range");
+            IO.println("--Price out of range");
         }
     }
     public int getMinutes() {
