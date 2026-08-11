@@ -17,7 +17,7 @@ public class VehicleRentalDesk {
         rentals.add(firstCar);
         boolean exit = false;
         while (!exit) {
-            IO.println("\n RENTAL MENU ");
+            IO.println("\n -RENTAL MENU- ");
             IO.println("1. Add a car");
             IO.println("2. Add a motorbike");
             IO.println("3. Print everything on hire");
