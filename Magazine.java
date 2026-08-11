@@ -16,7 +16,7 @@ public class Magazine implements LibraryItem {
     }
     public void setName(String name) {
         if (name == null || name.trim().isEmpty()) {
-            IO.println("Name cannot be empty.");
+            IO.println("--Name cannot be empty.");
         } else {
             this.name = name;
         }
