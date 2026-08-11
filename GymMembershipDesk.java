@@ -89,7 +89,7 @@ public class GymMembershipDesk {
         IO.println("Enter number of visits:");
         int visits = scanner.nextInt();
         scanner.nextLine();
-        IO.println("Enter membership ID:");
+        IO.println(" -Enter membership ID:");
         int membershipId = scanner.nextInt();
         scanner.nextLine();
         return new DayPassVisitor(
