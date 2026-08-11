@@ -43,10 +43,10 @@ public class CornerShopInventory {
                     break;
                 case 5:
                     exit = true;
-                    IO.println("Goodbye.");
+                    IO.println(" Goodbye.");
                     break;
                 default:
-                    IO.println("Invalid choice.");
+                    IO.println("-Invalid choice.");
             }
         }
     }
