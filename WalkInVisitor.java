@@ -14,7 +14,7 @@ public class WalkInVisitor implements Attendable {
     }
     public void setName(String name) {
         if (name == null || name.trim().isEmpty()) {
-            IO.println("Name is required");
+            IO.println("-Name is required");
         } else {
             this.name = name;
         }
