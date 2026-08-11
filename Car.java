@@ -28,7 +28,7 @@ public class Car implements Rentable {
     public double getDailyRate() {
         return dailyRate;
     }
-    public void setDailyRate(double dailyRate) {
+    public void setDailyRate( double dailyRate) {
         if (dailyRate > 0 && dailyRate <= 200) {
             this.dailyRate = dailyRate;
         } else {
@@ -55,7 +55,7 @@ public class Car implements Rentable {
         if (seats >= 2 && seats <= 7) {
             this.seats = seats;
         } else {
-            IO.println("Car seats must be from 2 to 7.");
+            IO.println(" Car seats must be from 2 to 7.");
         }
     }
     @Override
