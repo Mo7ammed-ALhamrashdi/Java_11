@@ -29,7 +29,7 @@ public class MonthlyMember implements Payable {
     }
     public void setAge(int age) {
         if (age < 14) {
-            IO.println("Too young to register");
+            IO.println("-Too young to register");
         } else if (age > 90) {
             IO.println("Age must be between 14 and 90.");
         } else {
