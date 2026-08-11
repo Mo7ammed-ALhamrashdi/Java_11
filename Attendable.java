@@ -1,7 +1,7 @@
 package java_11;
 
 public interface Attendable {
-    void printAllInfo();
-    String getPriority();
-    int getWaitMinutes();
+    void printAllInfo( );
+    String getPriority( );
+    int getWaitMinutes( );
 }
