@@ -13,7 +13,7 @@ public class LibraryCatalogue {
         startProgram();
     }
     static void startProgram() {
-        IO.println("--- Single item created at startup ---");
+        IO.println(" Single item created at startup ");
         Book firstBook = new Book("Clean Code", "Robert Martin", 464);
         firstBook.printAllInfo();
         catalogue.add(firstBook);
