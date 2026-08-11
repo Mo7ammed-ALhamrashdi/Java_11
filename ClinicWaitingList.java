@@ -11,7 +11,7 @@ public class ClinicWaitingList {
         startProgram();
     }
     static void startProgram() {
-        IO.println(" Single item created at startup ");
+        IO.println(" -Single item created at startup-");
         BookedPatient firstPatient =
                 new BookedPatient("Sarah Bennett", 0, "09:30");
         firstPatient.setAge(150);
